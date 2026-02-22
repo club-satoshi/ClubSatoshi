@@ -40,7 +40,7 @@ export default async function ResourcePage({ params }: PageProps) {
   }
 
   const { frontmatter, content } = resource;
-  const isGuide = frontmatter.category === "guide";
+  const isGuide = frontmatter.type === "guide";
 
   return (
     <div className="min-h-screen flex flex-col font-sans bg-gray-50 dark:bg-black">
