@@ -34,8 +34,8 @@ export default function Hero() {
                     <span className="text-gray-300 text-sm md:text-xl tracking-[0.3em] font-bold uppercase mt-4 block not-italic font-sans">Comunidad Bitcoiner</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: "0.3s" }}>
-                    Aprende cómo Bitcoin impulsa una economía circular y sostenible.
-                    Únete a la revolución financiera desde tu comunidad.
+                    Somos de Tucumán y estamos construyendo algo distinto.
+                    Aprendé Bitcoin desde cero, con personas reales, a tu ritmo.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: "0.5s" }}>
