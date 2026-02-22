@@ -30,7 +30,7 @@ export default function Header() {
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600 dark:text-gray-300">
                     <Link href="/" className="hover:text-primary transition-colors">Inicio</Link>
-                    <Link href="/#about" className="hover:text-primary transition-colors">Acerca de</Link>
+                    <Link href="/#about" className="hover:text-primary transition-colors">Quienes somos</Link>
                     <Link href="/#resources" className="hover:text-primary transition-colors text-secondary dark:text-white">Recursos</Link>
                     <Link href="/#communities" className="hover:text-primary transition-colors">Comunidades</Link>
                     <Link href="/#contact" className="hover:text-primary transition-colors">Contacto</Link>
@@ -41,7 +41,7 @@ export default function Header() {
                     <button className="text-gray-500 hover:text-primary transition-colors">
                         <Search className="w-5 h-5" />
                     </button>
-                    <Link href="#join" className="px-4 py-2 bg-primary text-white text-sm font-bold rounded-full hover:bg-primary-hover transition-colors shadow-lg shadow-orange-500/20">
+                    <Link href="/unirse" className="px-4 py-2 bg-primary text-white text-sm font-bold rounded-full hover:bg-primary-hover transition-colors shadow-lg shadow-orange-500/20">
                         Unirse al Club
                     </Link>
                 </div>
@@ -64,7 +64,7 @@ export default function Header() {
                         <Link href="#resources" className="py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Recursos</Link>
                         <Link href="#communities" className="py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Comunidades</Link>
                         <Link href="#contact" className="py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Contacto</Link>
-                        <Link href="#join" className="py-2 bg-primary text-white rounded-full font-bold" onClick={() => setIsMenuOpen(false)}>
+                        <Link href="/unirse" className="py-2 bg-primary text-white rounded-full font-bold" onClick={() => setIsMenuOpen(false)}>
                             Unirse al Club
                         </Link>
                     </nav>
