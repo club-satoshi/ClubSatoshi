@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   description:
     "Aprende cómo Bitcoin impulsa una economía circular y sostenible.",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/images/logo.svg",
+    shortcut: "/images/logo.svg",
+    apple: "/images/logo.svg",
   },
 };
 
