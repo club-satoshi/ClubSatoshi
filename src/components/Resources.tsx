@@ -63,16 +63,16 @@ export default function Resources() {
 
 function ResourceCard({ category, icon, title, description, color, delay, href }: any) {
     return (
-        <div className="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all hover:-translate-y-1 animate-slide-up" style={{ animationDelay: delay }}>
+        <Link href={href} className="group block bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all hover:-translate-y-1 animate-slide-up cursor-pointer" style={{ animationDelay: delay }}>
             <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold mb-4 ${color}`}>
                 {icon}
                 {category}
             </div>
             <h3 className="text-xl font-bold mb-3 text-secondary dark:text-white">{title}</h3>
             <p className="text-gray-500 dark:text-gray-400 text-sm mb-4">{description}</p>
-            <Link href={href} className="text-sm font-bold text-secondary dark:text-white hover:text-primary transition-colors">
-                Leer más
-            </Link>
-        </div>
+            <span className="text-sm font-bold text-secondary dark:text-white group-hover:text-primary transition-colors">
+                Leer más →
+            </span>
+        </Link>
     );
 }
