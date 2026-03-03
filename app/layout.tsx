@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   title: "Club Satoshi | Comunidad Bitcoiner",
   description:
     "Aprende cómo Bitcoin impulsa una economía circular y sostenible.",
+  icons: {
+    icon: "/images/logo.svg",
+    shortcut: "/images/logo.svg",
+    apple: "/images/logo.svg",
+  },
 };
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ export default function Footer() {
                     <Link href="/" className="flex items-center gap-2.5 group">
                         <div className="relative h-8 w-8 shrink-0">
                             <Image
-                                src="/logo.png"
+                                src="/images/logo.svg"
                                 alt="Club Satoshi Icon"
                                 fill
                                 className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
